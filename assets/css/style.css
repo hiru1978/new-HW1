@@ -1,9 +1,9 @@
-Body{
+body{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;
     line-height:36px;
     color: #777777;
-    background:-ms-fullscreen https://www.toptal.com/designers/subtlepatterns/page/4/
+    background-image:url("assets/images/profile image.jpg");
 }
 
 *{
@@ -62,7 +62,7 @@ nav a {
     border-bottom: 3px solid #dddddd;
   }
   footer {
-    padding: 30px 0;
+    padding: 25px 0;
     clear: both;
     font-size: 10px;
     color: #ffffff;
@@ -70,7 +70,7 @@ nav a {
     text-align: center;
     background: #666666;
     border-top: 8px solid #4aaaa5;
-    height: 70px;
+    height: 80px;
   }
   h3, h2 {
     padding-bottom: 20px;
@@ -91,7 +91,46 @@ main {
     max-width: 960px;
     padding: 45px;
     margin: 0 0 40px;
-    background: hsla(0, 12%, 97%, 0.952);
-    border: 1px solid #dddddd;
+    background: hsla(0, 44%, 93%, 0.952);
+    border: 1px solid #f1e5e5;
+  }
+
+/*Contact*/
+
+  #contact-form ul {
+    margin-bottom: 20px;
   }
   
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    padding: 15px 40px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #378884;
+    border: 0 none;
+  }
